@@ -1,0 +1,11 @@
+{
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0NjMxNTMxMSwianRpIjoiMjI1Njc2YWQtMTE0Yy00ZjdlLWI4M2QtMmQ0YWIwZTA1ZWI5IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjQiLCJuYmYiOjE3NDYzMTUzMTEsImV4cCI6MTc0NjMxODkxMX0.NOxGdR6z2tAf-vFf2gDkUHb5wOL1oCfAsFe9CMQQy4A",
+  "message": "Login realizado com sucesso",
+  "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0NjMxNTMxMSwianRpIjoiZWEwNTlhM2UtNWU3My00ODFlLWE4MGUtZTdjMGVhZWQ4MDQwIiwidHlwZSI6InJlZnJlc2giLCJzdWIiOiI0IiwibmJmIjoxNzQ2MzE1MzExLCJleHAiOjE3NDg5MDczMTF9.f33wA4TlptN82-y_fiWQcJnMIhVe12DF7ww8i9dtVHs",
+  "usuario": {
+    "data_cadastro": "2025-05-03T23:32:55.636503",
+    "email": "teste@exemplo.com",
+    "id": 4,
+    "nome": "Usu\u00e1rio Teste"
+  }
+}
