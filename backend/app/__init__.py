@@ -21,7 +21,7 @@ def create_app(config_name='default'):
     jwt.init_app(app)
     # Configuração mais específica do CORS
     CORS(app,
-         resources={r"/api/*": {"origins": "http://localhost:3000"}},
+         resources={r"/api/*": {"origins": "*"}},
          supports_credentials=True,
          methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
          allow_headers=["Content-Type", "Authorization"])
