@@ -13,6 +13,10 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copiar o código da aplicação
 COPY . .
 
+# Copiar o script de entrada
+COPY entrypoint.sh .
+RUN chmod +x entrypoint.sh
+
 # Variáveis de ambiente
 ENV FLASK_APP=run.py
 ENV FLASK_CONFIG=production
@@ -21,5 +25,5 @@ ENV PYTHONUNBUFFERED=1
 # Expor a porta 5000
 EXPOSE 5000
 
-# Comando para iniciar a aplicação com gunicorn
-CMD ["gunicorn", "--bind", "0.0.0.0:5000", "run:app"]
+# Entrypoint do container
+ENTRYPOINT ["./entrypoint.sh"]
