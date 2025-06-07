@@ -4,7 +4,7 @@ from datetime import timedelta
 class Config:
     # Configurações básicas
     SECRET_KEY = os.environ.get('SECRET_KEY', 'humaniq-secret-key-dev')
-    SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL', 'postgresql://postgres:[uninassau2025]@db.sgshrtbojqbxvtnqbppw.supabase.co:5432/postgres')
+    SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL', 'postgresql://postgres:uninassau2025@db.sgshrtbojqbxvtnqbppw.supabase.co:5432/postgres')
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     
     # Configurações JWT
